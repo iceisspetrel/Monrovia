@@ -13,9 +13,13 @@
 " License:      MIT
 
 
-"================================================================================
+"=================================================================================
 " ANSI COLORS:
-"================================================================================
+"=================================================================================
+"     Foreground   #D3CBAF                                                       |
+"     Background   #1F2433                                                       |
+"     CursorColor  #FFFFFF                                                       |
+"---------------------------------------|-----------------------------------------
 "     NORMAL       Hex          xterm   |      "BRIGHT      Hex          xterm   |
 "---------------------------------------|-----------------------------------------
 "     Black        #1F2433      0       |      brBlack      #375268      8       |
@@ -28,9 +32,9 @@
 "     White        #D3CBAF      7       |      brWhite      #EEEADF      15      |
 "---------------------------------------|-----------------------------------------
 
-"================================================================================
+"=================================================================================
 " SETUP:
-"================================================================================
+"=================================================================================
 
 set background=dark
 
@@ -69,12 +73,11 @@ highlight! PmenuSel                 guifg=#538798  guibg=NONE     gui=reverse   
 highlight! Todo                     guifg=#538798  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
 highlight! Search                   guifg=#CB2656  guibg=NONE     gui=reverse    ctermfg=9     ctermbg=NONE  cterm=reverse
 highlight! Error                    guifg=#8C3432  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
-"FIXME
-highlight! DiffChange                  guifg=#EEEADF     guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
-highlight! DiffAdd               guifg=#247DAE     guibg=NONE     gui=reverse    ctermfg=11     ctermbg=NONE  cterm=reverse
-highlight! SpellBad                 guifg=#8C3432     guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
-highlight! SpellLocal               guifg=#A1617A     guibg=NONE     gui=undercurl  ctermfg=10     ctermbg=NONE  cterm=undercurl
-highlight! SpellCap                 guifg=#247DAE     guibg=NONE     gui=undercurl  ctermfg=11     ctermbg=NONE  cterm=undercurl
+highlight! DiffChange               guifg=#EEEADF  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
+highlight! DiffAdd                  guifg=#247DAE  guibg=NONE     gui=reverse    ctermfg=11    ctermbg=NONE  cterm=reverse
+highlight! SpellBad                 guifg=#8C3432  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
+highlight! SpellLocal               guifg=#A1617A  guibg=NONE     gui=undercurl  ctermfg=10    ctermbg=NONE  cterm=undercurl
+highlight! SpellCap                 guifg=#247DAE  guibg=NONE     gui=undercurl  ctermfg=11    ctermbg=NONE  cterm=undercurl
 
 highlight! link WildMenu            PmenuSel
 highlight! link ModeMsg             PmenuSel
