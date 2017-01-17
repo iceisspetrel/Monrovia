@@ -28,7 +28,7 @@
 "     Yellow       #538798      3       |      brYellow     #247DAE      11      |
 "     Blue         #B55242      4       |      brBlue       #C77366      12      |
 "     Magenta      #9E7156      5       |      brMagenta    #B8937C      13      |
-"     Cyan         #1B1F2C      6       |      brCyan       #232839      14      |
+"     Cyan         #60A195      6       |      brCyan       #232839      14      |
 "     White        #D3CBAF      7       |      brWhite      #EEEADF      15      |
 "---------------------------------------|-----------------------------------------
 
