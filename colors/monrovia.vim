@@ -1,17 +1,17 @@
-"   _____ ______   ________  ________   ________  ________  ___      ___ ___  ________     
-"  |\   _ \  _   \|\   __  \|\   ___  \|\   __  \|\   __  \|\  \    /  /|\  \|\   __  \    
-"  \ \  \\\__\ \  \ \  \|\  \ \  \\ \  \ \  \|\  \ \  \|\  \ \  \  /  / | \  \ \  \|\  \   
-"   \ \  \\|__| \  \ \  \\\  \ \  \\ \  \ \   _  _\ \  \\\  \ \  \/  / / \ \  \ \   __  \  
-"    \ \  \    \ \  \ \  \\\  \ \  \\ \  \ \  \\  \\ \  \\\  \ \    / /   \ \  \ \  \ \  \ 
+"   _____ ______   ________  ________   ________  ________  ___      ___ ___  ________
+"  |\   _ \  _   \|\   __  \|\   ___  \|\   __  \|\   __  \|\  \    /  /|\  \|\   __  \
+"  \ \  \\\__\ \  \ \  \|\  \ \  \\ \  \ \  \|\  \ \  \|\  \ \  \  /  / | \  \ \  \|\  \
+"   \ \  \\|__| \  \ \  \\\  \ \  \\ \  \ \   _  _\ \  \\\  \ \  \/  / / \ \  \ \   __  \
+"    \ \  \    \ \  \ \  \\\  \ \  \\ \  \ \  \\  \\ \  \\\  \ \    / /   \ \  \ \  \ \  \
 "     \ \__\    \ \__\ \_______\ \__\\ \__\ \__\\ _\\ \_______\ \__/ /     \ \__\ \__\ \__\
 "      \|__|     \|__|\|_______|\|__| \|__|\|__|\|__|\|_______|\|__|/       \|__|\|__|\|__|
 
-                                                                                        
+
 " A Terminal && Vim colorscheme
 " Author:       Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Monrovia
 " License:      MIT
-                                                                                        
+
 
 "================================================================================
 " ANSI COLORS:
@@ -97,7 +97,7 @@ highlight! link DiffText            DiffAdd
 highlight! link SpellRare           SpellLocal
 highlight! link NonText             Comment
 highlight! link VertSplit           Comment
-highlight! link TabLineSel          StatusLine               
+highlight! link TabLineSel          StatusLine
 highlight! link SignColumn          String
 highlight! link MoreMsg             String
 highlight! link Directory           String
@@ -105,11 +105,11 @@ highlight! link markdownLinkText    String
 highlight! link WarningMsg          String
 highlight! link cssIdentifier       Special
 highlight! link cssClassName        Special
-highlight! link Underlined          SpecialKey               
+highlight! link Underlined          SpecialKey
 highlight! link Boolean             SpecialKey
 highlight! link Question            SpecialKey
 highlight! link markdownUrl         SpecialKey
 highlight! link VimCommentTitle     SpecialComment
 highlight! link Visual              SpecialComment
-highlight! link CursorLineNr        SpecialComment              
-highlight! link MatchParen          SpecialComment               
+highlight! link CursorLineNr        SpecialComment
+highlight! link MatchParen          SpecialComment
